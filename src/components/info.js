@@ -1,4 +1,5 @@
 import React from "react";
+import mail from "../components/images/Mail Icon.svg";
 
 export default function DevInfo() {
   return (
@@ -9,8 +10,10 @@ export default function DevInfo() {
         <p className="Info__para-2">Contact me Through</p>
       </div>
       <div className="button__wrapper">
-        <img className="email__logo" src="###" />
-        <button>Email</button>
+        <button className="email__button">
+          <img className="email__logo" alt="email__logo" src={mail} />
+          Email
+        </button>
       </div>
     </div>
   );

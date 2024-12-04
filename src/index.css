@@ -1,4 +1,79 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(37, 38, 58);
+  max-width: 1400px;
+  width: 100%;
+  height: 101vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+h2,
+h3,
+p {
+  color: white;
+}
+
+/* PROFILE  */
+.Business__card {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 10px;
+  height: 95vh;
+  background-color: rgb(20, 20, 30);
+}
+.profilePic {
+  width: 320px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* INFO */
+
+.Info__wrapper {
+  width: 100%;
+}
+.Info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  line-height: 0.1px;
+  padding: 10px 0px;
+}
+.Info__name {
+  font-size: 23px;
+}
+.Info__para-1,
+.Info__para-2 {
+  font-size: 17px;
+  font-weight: 100;
+}
+.button__wrapper {
+  width: 100%;
+
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email__logo {
+  width: 15px;
+  margin: 0px 6px;
+  margin-top: 4px;
+}
+.email__button {
+  background-color: aliceblue;
+  width: 85%;
+  height: 4vh;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

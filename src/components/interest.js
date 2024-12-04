@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Interest() {
   return (
-    <>
+    <div className="about__interest">
       <div className="about__section">
         <h2 className="about__header">About</h2>
         <p className="about__para">
@@ -19,6 +19,6 @@ export default function Interest() {
           djsbsj sjsnsn
         </p>
       </div>
-    </>
+    </div>
   );
 }

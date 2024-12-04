@@ -8,11 +8,11 @@ import GitHub from "../components/images/GitHub.svg";
 export default function Socials() {
   return (
     <div className="socials__logo">
-      <img src={Twitter} alt="Twitter Logo" />
-      <img src={FaceBook} alt="FaceBook Logo" />
-      <img src={Instagram} alt="Instagram Logo" />
-      <img src={LinkedIn} alt="LinkedIn Logo" />
-      <img src={GitHub} alt="GitHub Logo" />
+      <img className="Twitter Logo_social" src={Twitter} alt="Twitter Logo" />
+      <img className="Facebook Logo_social"src={FaceBook} alt="FaceBook Logo" />
+      <img className="Instagram Logo_social"src={Instagram} alt="Instagram Logo" />
+      <img className="LinkedIn Logo_social"src={LinkedIn} alt="LinkedIn Logo" />
+      <img className="GitHub Logo_social"src={GitHub} alt="GitHub Logo" />
     </div>
   );
 }

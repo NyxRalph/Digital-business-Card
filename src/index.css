@@ -85,10 +85,10 @@ p {
   justify-content: center;
   transition: all 300ms ease;
 }
-.email__button:hover {
+/* .email__button:hover {
   scale: 1.1;
   transition: all 300ms ease;
-}
+} */
 
 /* INTEREST/ABOUT */
 

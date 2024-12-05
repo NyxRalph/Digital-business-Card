@@ -83,6 +83,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 300ms ease;
+}
+.email__button:hover {
+  scale: 1.1;
+  transition: all 300ms ease;
 }
 
 /* INTEREST/ABOUT */
@@ -93,7 +98,8 @@ font-size: 15px;
 line-height: 0.95em;
 }
 
-/* SOCIALS */
+/* SOCIALS */ 
+
 .socials__logo{
 width: 100%;
 background-color:rgb(14, 14, 19);

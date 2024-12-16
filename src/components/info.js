@@ -9,12 +9,14 @@ export default function DevInfo() {
         <p className="Info__para-1">Frontend Developer Enthusiast</p>
         <p className="Info__para-2">Contact me Through</p>
       </div>
-      <div className="button__wrapper">
-        <button className="email__button">
-          <img className="email__logo" alt="email__logo" src={mail} />
-          Email
-        </button>
-      </div>
+      <a href="mailto:anndymenz@gmail.com">
+        <div className="button__wrapper">
+          <button className="email__button">
+            <img className="email__logo" alt="email__logo" src={mail} />
+            Email
+          </button>
+        </div>
+      </a>
     </div>
   );
 }

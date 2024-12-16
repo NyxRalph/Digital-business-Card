@@ -5,11 +5,6 @@ import Twitter from "../components/images/Bird Icon 376969.svg";
 import LinkedIn from "../components/images/linkedin.svg";
 import GitHub from "../components/images/GitHub.svg";
 
-// import FaceBookLink from "../components/images/Facebook Icon.svg";
-// import InstagramLink from "https://www.instagram.com/menz_andy/";
-// import TwitterLink from "https://x.com/AndyRalphMenz";
-// import LinkedInLink from "https://www.linkedin.com/in/andy-ralph-menz-32bb10259/";
-// import GitHubLink from "https://github.com/NyxRalph";
 
 export default function Socials() {
   return (
